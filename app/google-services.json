@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "989481135200",
+    "firebase_url": "https://basedatosfirebase-1f40e.firebaseio.com",
+    "project_id": "basedatosfirebase-1f40e",
+    "storage_bucket": "basedatosfirebase-1f40e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:989481135200:android:856de80b3bb3ed65f7e705",
+        "android_client_info": {
+          "package_name": "com.ovalle.basedatosfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "989481135200-mh9kb6r75qfoighrk0lrtr70k29rj4v7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8Y497sLyMs40d9x444_d82GGOkdhHzC8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "989481135200-mh9kb6r75qfoighrk0lrtr70k29rj4v7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

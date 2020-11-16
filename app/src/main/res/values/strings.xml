@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">BaseDatosFirebase</string>
+
+    <string-array name="arrayGeneros">
+        <item>Masculino</item>
+        <item>Femenino</item>
+        <item>Otros</item>
+    </string-array>
+
+</resources>
