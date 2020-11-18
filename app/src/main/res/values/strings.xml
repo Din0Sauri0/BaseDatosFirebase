@@ -2,6 +2,7 @@
     <string name="app_name">BaseDatosFirebase</string>
 
     <string-array name="arrayGeneros">
+        <item>--Seleccione una opcion--</item>
         <item>Masculino</item>
         <item>Femenino</item>
         <item>Otros</item>
