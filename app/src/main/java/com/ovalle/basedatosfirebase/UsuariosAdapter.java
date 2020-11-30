@@ -1,4 +1,4 @@
-package com.ovalle.basedatosfirebase;
+ package com.ovalle.basedatosfirebase;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -10,6 +10,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.ovalle.basedatosfirebase.entidades.Usuario;
+import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
 
@@ -50,6 +51,13 @@ public class UsuariosAdapter extends RecyclerView.Adapter<UsuariosAdapter.ViewHo
         }
         public void cargarUsuario(Usuario usuario){
             txtNombreUsuario.setText(usuario.getNombre());
+            if(usuario.getGenero().equals("Femenino")){
+                Picasso.get().load(R.drawable.femenino).into(imgUsuario);
+            }else if(usuario.getGenero().equals("Masculino")){
+                Picasso.get().load(R.drawable.masculino).into(imgUsuario);
+            }else{
+                Picasso.get().load(R.drawable.pregunta).into(imgUsuario);
+            }
         }
     }
 }
